@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+
+body {
+    background-image: url(wp2628940.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.login {
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+}
+
+.login a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Jacquard 24";
+
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+h1 {
+    background-color: gray;
+    color: black;
+    font-family: "Jacquard 24";
+    text-align: center;
+    padding: 0;
+    font-size: 100px;
+    padding: 10px;
+    margin: auto;
+    width: 90vw;
+    border-radius: 20px;
+    font-weight: lighter;
+}
+
+.informacoes p {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Jersey 10 Charted";
+    text-align: center;
+    padding: 3px;
+}
+
+.informacoes {
+    background-color: rgba(0, 0, 0, 0.482);
+    padding: 20px 20px 20px 20px;
+    border-radius: 13px;
+    margin: 20px auto;
+    width: 85vw;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#InputNome {
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#blabla {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#InputEmail {
+    width: 60%;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+    margin-top: 5px;
+    
+}
+
+.BotaoLogin {
+    width: 37%;
+    height: 40px;
+    border-radius: 15px;
+    border-color: gray;
+    color: beige;
+    background-color: #8c7b7c;
+    margin-top: 5px;
+}
+.redes{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.redes img{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.482);
+    padding: 10px;
+    border-radius: 13px;
+    margin: 20px auto;
+    width: 85vw;
+}
+
+footer p {
+    font-family: "Jersey 10 Charted";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
